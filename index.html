@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter:wght@100;200;300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,900&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0aa6304a5a.js" crossorigin="anonymous"></script>
+    <title>Portfolio | Rocío Mónaco</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-container-titleButton">
+                <h1 class="header-title">R M</h1>
+                <!-- menu -->
+                <button class="header-buttonMenu">
+                    <span class="header-buttonMenu-span-1"></span>
+                    <span class="header-buttonMenu-span-2"></span>
+                    <span class="header-buttonMenu-span-3"></span>
+                </button>
+            </div>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-list-item"><a class="header-nav-list-item-link" href="#home" data-section="menu" data-value="0">Home</a></li>
+                    <li class="header-nav-list-item"><a class="header-nav-list-item-link" href="#aboutme" data-section="menu" data-value="1">About Me</a></li>
+                    <li class="header-nav-list-item"><a class="header-nav-list-item-link" href="#skills" data-section="menu" data-value="2">Skills</a></li>
+                    <li class="header-nav-list-item"><a class="header-nav-list-item-link" href="#portfolio" data-section="menu" data-value="3">Portfolio</a></li>
+                    <li class="header-nav-list-item"><a class="header-nav-list-item-link" href="#contact" data-section="menu" data-value="4">Contact</a></li>
+
+                    <button class="switch-button" data-language="">
+                        <span>EN</span>
+                        <span>ES</span>
+                    </button>
+                </ul>
+            </nav>
+            <!--/ menu -->
+        </div>
+    </header>
+    <!--/ header -->
+
+    <main>
+        <!-- front page -->
+        <section id="home" class="section-frontpage container">
+            <h2 class="section-frontpage-subtitle" data-section="front-page" data-value="0">
+                Hi  <span><img class="section-frontpage-subtitle-img" src="img/emoji.png" alt="Emoji"></span>,
+                <span class="section-frontpage-subtitle-span">I'm Rocío,</span>
+                <span class="section-frontpage-subtitle-span">Front-end Developer</span> 
+            </h2>
+            <div class="section-frontpage-containerImg">
+                <img class="section-frontpage-containerImg-img" src="img/illustration.svg" alt="illustration">
+            </div>
+        </section>
+        <!--/ front page -->
+
+        <!-- about me -->
+        <section class="section-aboutme" id="aboutme">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 362"><path fill="#f3f4f5" fill-opacity="1" d="M0,224L26.7,208C53.3,192,107,160,160,165.3C213.3,171,267,213,320,234.7C373.3,256,427,256,480,224C533.3,192,587,128,640,128C693.3,128,747,192,800,197.3C853.3,203,907,149,960,160C1013.3,171,1067,245,1120,256C1173.3,267,1227,213,1280,186.7C1333.3,160,1387,160,1413,160L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+            <div class="section-aboutme-container">
+                <div class="container">
+                    <h2 class="section-subtitle" data-section="about-me" data-value="title">About Me</h2>
+                    <ul class="section-aboutme-list">
+                        <li class="section-aboutme-list-item">
+                            <i class="section-aboutme-list-item-icon fa-solid fa-school"></i>
+                            <h3 class="section-aboutme-list-item-title" data-section="about-me" data-value="education-title">Education</h3>
+                            <p class="section-aboutme-list-item-text" data-section="about-me" data-value="education-text">I am in the second year of the web development technician at the National University of La Matanza</p>
+                        </li>
+                        <li class="section-aboutme-list-item">
+                            <i class="section-aboutme-list-item-icon fa-solid fa-code"></i>
+                            <h3 class="section-aboutme-list-item-title" data-section="about-me" data-value="work-experience-title">Work Experience</h3>
+                            <p class="section-aboutme-list-item-text" data-section="about-me" data-value="work-experience-text">I have two years of experience working like Front-end developer, and I really enjoy what I do</p>
+                        </li>
+                        <li class="section-aboutme-list-item">
+                            <i class="section-aboutme-list-item-icon fa-solid fa-laptop-code"></i>
+                            <h3 class="section-aboutme-list-item-title" data-section="about-me" data-value="hobbies-title">Hobbies</h3>
+                            <p class="section-aboutme-list-item-text" data-section="about-me" data-value="hobbies-text">In my free time I like doing programming courses and run in open air.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--/ about me -->
+
+        <!-- skills -->
+        <section class="section-skills container" id="skills">
+            <h2 class="section-subtitle" data-section="skills" data-value="0">Skills</h2>
+            <div class="section-skills-container">
+                <div class="section-skills-container-illustration">
+                    <img class="section-skills-container-illustration-img" src="img/illustration-2.svg" alt="illustration2">
+                </div>
+
+                <ul class="section-skills-container-programmingLanguages">
+                    <li class="section-skills-container-programmingLanguages-item">
+                        <i class="section-skills-container-programmingLanguages-item-icon fa-brands fa-html5"></i>
+                        <p>HTML5</p>
+                    </li>
+                    <li class="section-skills-container-programmingLanguages-item">
+                        <i class="section-skills-container-programmingLanguages-item-icon fa-brands fa-css3"></i>
+                        <p>CSS3</p>
+                    </li>
+                    <li class="section-skills-container-programmingLanguages-item">
+                        <i class="section-skills-container-programmingLanguages-item-icon fa-brands fa-bootstrap"></i>
+                        <p>Bootstrap</p>
+                    </li>
+                    <li class="section-skills-container-programmingLanguages-item">
+                        <i class="section-skills-container-programmingLanguages-item-icon fa-brands fa-sass"></i>
+                    </li>
+                    <li class="section-skills-container-programmingLanguages-item">
+                        <i class="section-skills-container-programmingLanguages-item-icon fa-brands fa-square-js"></i>
+                        <p>JavaScript</p>
+                    </li>
+                    <li class="section-skills-container-programmingLanguages-item">
+                        <img class="section-skills-container-programmingLanguages-item-img" src="img/jquery.png" alt="Jquery icon">
+                    </li>
+                    <li class="section-skills-container-programmingLanguages-item">
+                        <i class="section-skills-container-programmingLanguages-item-icon fa-brands fa-php"></i>
+                        <p>PHP</p>
+                    </li>
+                    <li class="section-skills-container-programmingLanguages-item">
+                        <i class="section-skills-container-programmingLanguages-item-icon fa-brands fa-java"></i>
+                        <p>Java</p>
+                    </li>
+                    <li class="section-skills-container-programmingLanguages-item">
+                        <i class="section-skills-container-programmingLanguages-item-icon fa-solid fa-database"></i>
+                        <p>SQL</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--/ skills -->
+
+        <!-- portfolio -->
+        <section class="section-portfolio container" id="portfolio">
+            <h2 class="section-subtitle"  data-section="portfolio" data-value="title">Portfolio</h2>
+            <ul class="section-portfolio-works">
+                <!-- Portfolio item -->
+                <li class="section-portfolio-works-item">
+                    <img class="section-portfolio-works-item-img" src="img/karkaman-page.png" alt="Karkaman page">
+                    <div class="section-portfolio-works-item-description">
+                        <h3 data-section="portfolio" data-value="proyect-1">Karkaman Coder Project</h3>
+                        <h4 data-section="portfolio" data-value="develop">Develop By</h4>
+                        <div class="section-portfolio-works-item-description-languages">
+                            <i class="section-portfolio-works-item-description-languages-item fa-brands fa-html5"></i>
+                            <i class="section-portfolio-works-item-description-languages-item fa-brands fa-css3"></i>
+                            <i class="section-portfolio-works-item-description-languages-item fa-brands fa-bootstrap"></i>
+                            <i class="section-portfolio-works-item-description-languages-item fa-brands fa-sass"></i>
+                        </div>
+                        <div class="section-portfolio-works-item-description-links">
+                            <a href="https://rociomonaco.github.io/karkaman-proyecto-coder/" target="_blank" data-section="portfolio" data-value="btn-1">Website</a>
+                            <a href="https://github.com/rociomonaco/karkaman-proyecto-coder" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </li>
+                <!--/ Portfolio item -->
+                <!-- Portfolio item -->
+                <li class="section-portfolio-works-item">
+                    <img class="section-portfolio-works-item-img" src="img/plastificadoraemi.png" alt="Plastificadora Emi page">
+                    <div class="section-portfolio-works-item-description">
+                        <h3 data-section="portfolio" data-value="proyect-2">Plastificadora Emi <span class="section-portfolio-works-item-description-break">Freelance Project</span></h3>
+                        <h4 data-section="portfolio" data-value="develop">Develop By</h4>
+                        <div class="section-portfolio-works-item-description-languages">
+                            <i class="section-portfolio-works-item-description-languages-item fa-brands fa-html5"></i>
+                            <i class="section-portfolio-works-item-description-languages-item fa-brands fa-css3"></i>
+                            <i class="section-portfolio-works-item-description-languages-item fa-brands fa-bootstrap"></i>
+                            <i class="section-portfolio-works-item-description-languages-item fa-brands fa-square-js"></i>
+                            <i class="section-portfolio-works-item-description-languages-item fa-brands fa-php"></i>
+                        </div>
+                        <div class="section-portfolio-works-item-description-links">
+                            <a href="https://www.plastificadoraemi.com.ar/" target="_blank" data-section="portfolio" data-value="btn-1">Website</a>
+                        </div>
+                    </div>
+                </li>
+                <!--/ Portfolio item -->
+                <!-- Portfolio item -->
+                <li class="section-portfolio-works-item">
+                    <img class="section-portfolio-works-item-img" src="img/ip-address-tracker.png" alt="IP Address Tracker">
+                    <div class="section-portfolio-works-item-description">
+                        <h3 data-section="portfolio" data-value="proyect-3">Frontend Mentor Project</h3>
+                        <h4 data-section="portfolio" data-value="develop">Develop By</h4>
+                        <div class="section-portfolio-works-item-description-languages">
+                            <i class="section-portfolio-works-item-description-languages-item fa-brands fa-html5"></i>
+                            <i class="section-portfolio-works-item-description-languages-item fa-brands fa-css3"></i>
+                            <i class="section-portfolio-works-item-description-languages-item fa-brands fa-square-js"></i>
+                        </div>
+                        <div class="section-portfolio-works-item-description-links">
+                            <a href="https://rociomonaco.github.io/FrontendMentorIPAddressTracker/" target="_blank" data-section="portfolio" data-value="btn-1">Website</a>
+                            <a href="https://github.com/rociomonaco/FrontendMentorIPAddressTracker" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </li>
+                <!--/ Portfolio item -->
+            </ul>
+
+        </section>
+        <!--/ portfolio -->
+    </main>
+
+    <footer class="footer" id="contact">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 380"><path fill="#f3f4f5" fill-opacity="1" d="M0,128L24,138.7C48,149,96,171,144,197.3C192,224,240,256,288,229.3C336,203,384,117,432,117.3C480,117,528,203,576,234.7C624,267,672,245,720,224C768,203,816,181,864,192C912,203,960,245,1008,234.7C1056,224,1104,160,1152,160C1200,160,1248,224,1296,229.3C1344,235,1392,181,1416,154.7L1440,128L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
+        <div class="footer-contactMe">
+            <div class="footer-contactMe-container container">
+                <a class="footer-contactMe-container-btn" href="mailto:rociomonaco@gmail.com"  data-section="contact" data-value="0">Contact Me!</a> 
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
