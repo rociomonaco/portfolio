@@ -37,7 +37,7 @@ btnSwitch.addEventListener("click", function(){
 })
 const textsToChange = document.querySelectorAll("[data-section]");
 const changeLanguage = async (language) =>{
-    const request = await fetch(`/js/languages/${language}.json`);
+    const request = await fetch(`js/languages/${language}.json`);
     const texts = await request.json();
     
     textsToChange.forEach(element => {
