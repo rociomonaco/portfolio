@@ -1,12 +1,12 @@
 {
     "menu":["Home", "About Me", "Skills", "Portfolio", "Contact"],
-    "front-page": ["Hi  <span><img class='section-frontpage-subtitle-img' src='img/emoji.png' alt='Emoji'></span>,<span class='section-frontpage-subtitle-span'>I'm Rocío,</span><span class='section-frontpage-subtitle-span'>Front-end Developer</span> "],
+    "front-page": ["Hi  <span><img class='section-frontpage-subtitle-img' src='img/emoji.png' alt='Emoji'></span>,<span class='section-frontpage-subtitle-span'>I'm Rocío,</span><span class='section-frontpage-subtitle-span'>FullStack Developer</span> "],
     "about-me":{
         "title":"About me",
         "education-title": "Education",
         "education-text":"I am in the second year of the web development technician at the National University of La Matanza",
         "work-experience-title":"Work Experience",
-        "work-experience-text":"I have two years of experience working like Front-end developer, and I really enjoy what I do",
+        "work-experience-text":"I have two years of experience working like web developer, and I really enjoy what I do",
         "hobbies-title":"Hobbies",
         "hobbies-text":"In my free time I like doing programming courses and run in open air"
     }, 

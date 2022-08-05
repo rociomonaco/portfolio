@@ -1,12 +1,12 @@
 {
     "menu":["Inicio", "Sobre Mi", "Lenguajes", "Portfolio", "Contactame"],
-    "front-page": ["Hola <span><img class='section-frontpage-subtitle-img' src='img/emoji.png' alt='Emoji'></span>!<span class='section-frontpage-subtitle-span'>Me llamo Rocío,</span><span class='section-frontpage-subtitle-span'>Soy Desarrolladora Front-end</span>"],
+    "front-page": ["Hola <span><img class='section-frontpage-subtitle-img' src='img/emoji.png' alt='Emoji'></span>!<span class='section-frontpage-subtitle-span'>Me llamo Rocío,</span><span class='section-frontpage-subtitle-span'>Soy Desarrolladora FullStack</span>"],
     "about-me":{
         "title":"Sobre Mi",
         "education-title": "Educación",
         "education-text":"Estoy cursando el segundo año de la Tecnicatura en desarrollo web en la Universidad Nacional de La Matanza",
         "work-experience-title":"Experiencia de Trabajo",
-        "work-experience-text":"Llevo dos años trabajando como desarrolladora Front-end y realmente disfruto lo que hago",
+        "work-experience-text":"Llevo dos años trabajando como desarrolladora web y realmente disfruto lo que hago",
         "hobbies-title":"Hobbies",
         "hobbies-text":"En mi tiempo libre me gusta hacer cursos de programacion y correr al aire libre"
     }, 
