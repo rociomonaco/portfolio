@@ -151,7 +151,7 @@ body{
 }
 .section-aboutme-container{
     position: absolute;
-    bottom: -63%;
+    bottom: -58%;
     width: 100%;
     padding-bottom: 6rem;
 }
@@ -514,7 +514,7 @@ body{
 }
 @media(min-width: 1401px) and (max-width:1536px){
     .section-aboutme-container {
-        bottom: -87%;
+        bottom: -86.5%;
     }
 }
 @media(min-width: 1536px) and (max-width:1579px){
