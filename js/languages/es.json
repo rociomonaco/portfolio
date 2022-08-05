@@ -1,5 +1,5 @@
 {
-    "menu":["Inicio", "Sobre Mi", "Lenguajes", "Portfolio", "Contactame"],
+    "menu":["Inicio", "Sobre Mi", "Habilidades", "Portfolio", "Contactame"],
     "front-page": ["Hola <span><img class='section-frontpage-subtitle-img' src='img/emoji.png' alt='Emoji'></span>!<span class='section-frontpage-subtitle-span'>Me llamo Rocío,</span><span class='section-frontpage-subtitle-span'>Soy Desarrolladora FullStack</span>"],
     "about-me":{
         "title":"Sobre Mi",
