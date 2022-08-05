@@ -18,6 +18,9 @@ if (window.innerWidth <= 768) {
     itemsNav.forEach( item =>{
         item.addEventListener("click", function(){
             itemsMenu.classList.remove("activado");
+            barras.forEach(barra =>{
+                barra.classList.toggle("animado");
+            })
         })
     })
 }
@@ -26,14 +29,8 @@ if (window.innerWidth <= 768) {
 const btnSwitch = document.querySelector(".switch-button");
 btnSwitch.addEventListener("click", function(){
     btnSwitch.classList.toggle("active");
-    if(btnSwitch.classList.contains("active")){
-        btnSwitch.dataset.language = "en";
-        changeLanguage(btnSwitch.dataset.language);
-    }else{
-        btnSwitch.dataset.language = "es";
-        changeLanguage(btnSwitch.dataset.language);
-
-    }
+    btnSwitch.classList.contains("active") ?  btnSwitch.dataset.language = "es" : btnSwitch.dataset.language = "en";
+    changeLanguage(btnSwitch.dataset.language);
 })
 const textsToChange = document.querySelectorAll("[data-section]");
 const changeLanguage = async (language) =>{

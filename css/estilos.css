@@ -36,7 +36,7 @@ body{
     color: #6c63ff;
 }
 .header-container-titleButton{
-    width: 100%;
+    width: 20%;
 }
 
 .header-buttonMenu{
@@ -103,14 +103,14 @@ body{
     background-color: #f3f4f5;
     border-radius: 1000px;
     top: 0;
-    left: 0;
-    right: unset;
+    left: unset;
+    right:0;
     transition: all .5s ease;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
 } 
 .switch-button.active::after{
-    right: 0;
-    left: unset;
+    right: unset;
+    left: 0;
 }
 
 /* Main */
@@ -136,6 +136,10 @@ body{
 .section-frontpage-subtitle-span{
     display: block;
 }
+.section-frontpage-containerImg{
+    display: flex;
+    justify-content: center;
+}
 
 /* about me */
 .section-aboutme{
@@ -147,13 +151,13 @@ body{
 }
 .section-aboutme-container{
     position: absolute;
-    bottom: -40%;
+    bottom: -63%;
     width: 100%;
-    padding-bottom: 2rem;
+    padding-bottom: 6rem;
 }
 .section-subtitle{
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.7rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -207,11 +211,11 @@ body{
     text-align: center;
 }
 .section-skills-container-programmingLanguages-item-icon{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .section-skills-container-programmingLanguages-item-img{
-    width: 3rem;
-    height: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
 }
 
 /* portfolio */
@@ -227,7 +231,7 @@ body{
     list-style: none;
 }
 .section-portfolio-works-item{
-    width: 25%;
+    width: 30%;
     position: relative;
     transition: all .5s linear;
     margin-right: 1rem;
@@ -241,7 +245,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 97%;
     top: 0;
 
 }
@@ -314,7 +318,7 @@ body{
     border-radius: 1rem;
     border: 1px solid #6c63ff;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 .footer-contactMe-container-btn:hover{
     background-color: #6c63ff;
@@ -393,6 +397,7 @@ body{
     }
     .section-subtitle{
         font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
     .section-frontpage{
         flex-direction: column;
@@ -401,10 +406,6 @@ body{
     }
     .section-frontpage-subtitle-img{
         width: 30px;
-    }
-    .section-frontpage-containerImg{
-        display: flex;
-        justify-content: center;
     }
     .section-frontpage-containerImg-img{
         width: 60%;
@@ -478,28 +479,78 @@ body{
 }
 /* tablet */
 @media(min-width: 1001px) and (max-width:1080px){
+    .section-skills{
+        margin-top: 23rem;
+    }
     .section-aboutme-container {
-        bottom: -130%;
+        bottom: -158%;
+    }
+    .footer-contactMe-container-btn{
+        padding: .5rem;
     }
 }
-@media(min-width: 1081px) and (max-width:1220px){
+@media(min-width: 1081px) and (max-width:1130px){
     .section-aboutme-container {
-        bottom: -96%;
+        bottom: -141.5%;
+    }
+    .section-skills{
+        margin-top: 21rem;
+    }
+}
+@media(min-width: 1131px) and (max-width:1160px){
+    .section-aboutme-container {
+        bottom: -126%;
+    }
+}
+@media(min-width: 1161px) and (max-width:1220px){
+    .section-aboutme-container {
+        bottom: -121%;
     }
 }
 @media(min-width: 1221px) and (max-width:1400px){
     .section-aboutme-container {
+        bottom: -104%;
+    }
+}
+@media(min-width: 1401px) and (max-width:1536px){
+    .section-aboutme-container {
+        bottom: -87%;
+    }
+}
+@media(min-width: 1536px) and (max-width:1579px){
+    .section-aboutme-container {
         bottom: -80%;
     }
 }
-
-@media(min-width: 1401px) and (max-width:1536px){
+@media(min-width: 1580px) and (max-width:1750px){
     .section-aboutme-container {
-        bottom: -67%;
+        bottom: -74%;
     }
 }
-@media(min-width: 1536px) and (max-width:1750px){
-    .section-aboutme-container {
-        bottom: -49%;
+@media(min-width: 1000px) and (max-width:1100px){
+    .section-portfolio-works-item-description-links{
+        margin-top: 0.2rem;
+    }
+    .footer-contactMe-container {
+        margin-bottom: .5rem;
+    }
+}
+@media(min-width: 1000px) and (max-width:1520px){
+    .section-frontpage-containerImg-img{
+        width: 75%;
+    }
+    .section-portfolio-works-item:hover .section-portfolio-works-item-description h3{
+        font-size: .9rem;
+        text-align: center;
+    }
+    .section-portfolio-works-item-description h4{
+        margin: 0rem;
+        font-size: .85rem;
+    }
+    .section-portfolio-works-item-description-links a{
+        padding: .2rem;
+    }
+    .footer-contactMe-container{
+        margin-bottom: 1rem;
     }
 }
